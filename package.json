@@ -8,7 +8,9 @@
   },
   "scripts": {
     "serve": "nodemon www/app.js",
-    "test": "jest"
+    "test": "jest",
+    "start" : "pm2 start ecosystem.config.js",
+    "stop" : "pm2 stop all"
   },
   "keywords": [],
   "author": "",
